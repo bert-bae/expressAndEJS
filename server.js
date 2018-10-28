@@ -13,6 +13,6 @@ app.set('view engine', 'ejs');
 routes(app);
 
 // start our server
-app,list(port, function() {
-  console.log('Server listening on port ' + port + '...')
+app.listen(port, function() {
+  console.log('Server listening on port ' + port + '...');
 });
